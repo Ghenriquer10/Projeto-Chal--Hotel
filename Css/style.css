@@ -1,0 +1,199 @@
+/*ATRIBUINDO ATRIBUTOS AO HTML*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url(../Imagens/bg.png);
+}
+
+/*FIM DE ATRIBUIÇÃO*/
+
+/*ESTILIZANDO CONTAINER PRINCIPAL*/
+#container {
+    min-width: 900px;
+    width: 68%;
+    position: static;
+    margin: 0 auto;
+    background: #ede9cc; 
+}
+
+/*ESTILIZANDO TOPO PRINCIPAL*/
+#topo {
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+/*ESTILIZANDO TOPO MENU ESQUERDO*/
+#area-logo {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: red;
+    height: 250px;
+    background: url(../Imagens/topo-imagem-principal.png) no-repeat;
+    width: 840px;
+
+}
+
+#container #area-logo img.logo {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/*ESTILIZANDO TOPO DO MENU DIREITO*/
+
+#area-menu {
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: blueviolet;
+    height: 250px;
+    width: 560px;
+    background: url(../Imagens/topo-imagem-lateral.png);
+}
+
+#area-menu #conteudo-menu {
+    
+    margin-left: 50px;
+    
+}
+
+#area-menu div.area-reserva {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 35px;
+    border-bottom: tan 1px solid;
+    border-top: tan 1px solid;
+}
+
+#area-menu  span.locais {
+    font-size: 0.9em;
+    line-height: 35px;
+    padding: 20px;
+    color: #8b8488;
+}
+
+#area-menu  span.locais a {
+    text-decoration: none;
+    padding: 7px;
+    padding-left: 8px;
+    border-radius: 5px;
+    background: #dbcd87;
+    color: #8b8488;
+    margin-left: 50px;
+}
+
+#area-menu  span.locais a:hover {
+    color: wheat;
+    background: sienna;
+}
+
+#area-menu .area-lista ul {
+    margin-left: 30px;
+    float: left;
+}
+
+#area-menu .area-lista ul li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#area-menu .area-lista ul li a {
+    text-decoration: none;
+    color: #8b8488;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#area-menu .area-lista ul li a:hover {
+    background: #ede9cc;
+}
+
+#area-menu .area-lista img {
+    padding-top: 10px;
+    float: right;
+    padding-right: 45px;
+}
+
+/*ESTILIZANDO CONTÉUDP PRINCIPAL*/
+
+#container #conteudo-principal {
+    background: lemonchiffon;
+    float: left;
+    width: 47%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#container #conteudo-principal h1,
+#container #conteudo-principal h2,
+#container #conteudo-principal h3,
+#container #conteudo-principal h4 {
+    margin: 8px;
+    color: sienna;
+}
+
+
+
+/*ESTILIZANDO CONTEÚDO DE OPÇÕES*/
+
+#container #conteudo-opcoes {
+    background: khaki;
+    float: right;
+    width: 47%;
+    margin-top: 10px;
+    
+}
+
+#conteudo-opcoes li {
+    height: 118px;
+    list-style-type: none;
+    padding: 8px;
+    border-bottom: 2px solid #f3efcb;
+
+}
+
+#conteudo-opcoes li a {
+    text-decoration: none;
+    
+}
+
+#conteudo-opcoes li:hover {
+    text-decoration: none;
+    background: blanchedalmond;
+}
+
+#conteudo-opcoes li a img {
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+#conteudo-opcoes li a p {
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 0.8em;
+    color: #8b8488;
+}
+
+#conteudo-opcoes li a h3 {
+    font-size: 0.8em;
+    color: #8b8488;
+    background: url(../Imagens/ornamento.png) no-repeat right center;
+}
+
+/*ESTILIZANDO RODAPÉ*/
+
+#container #rodape {
+    clear: both;
+    color: sienna;
+    text-align: center;
+}
+
+
+
